@@ -1,0 +1,19 @@
+{
+  "name": "cv-nicklas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "watch": {
+    "start": "src/*.{html,js,css}"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "npm-watch"
+  },
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.11.0"
+  }
+}

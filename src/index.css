@@ -1,0 +1,131 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen {
+  html {
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    box-shadow: 0px 0px 5px gray;
+  }
+}
+
+@page:first {
+  margin: 0;
+}
+
+@page {
+  margin: 2rem 0 0 0;
+}
+
+body {
+  max-width: 210mm;
+}
+
+h3 {
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1ch;
+}
+
+ul li {
+  list-style-type: "–";
+  padding-inline-start: 1ch;
+}
+
+.profile {
+  display: flex;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 100%;
+  height: 150px;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.jobTitle {
+  color: #ffffff;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.contact div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact i {
+  color: #333333;
+  margin-right: 0.2rem;
+}
+
+.horizontalLine {
+  margin: 0 2rem;
+}
+
+.cvContent {
+  margin: 0 2rem 1rem 2rem;
+}
+
+.skillTable {
+  width: 100%;
+  display: flex;
+}
+
+.skillColumn {
+  width: 25%;
+}
+
+.skillTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.articleTitle {
+  padding: 1rem 0;
+}
+
+.timedSection {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  page-break-inside: avoid;
+}
+
+.sectionTime {
+  width: 25%;
+}
+
+.sectionContent {
+  width: 75%;
+  padding-bottom: 0.5rem;
+}
+
+.space {
+  border-top: 0.5px solid #333333;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.noBreak {
+  page-break-inside: avoid;
+}
