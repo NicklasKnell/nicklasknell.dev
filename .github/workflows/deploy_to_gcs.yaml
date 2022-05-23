@@ -2,7 +2,7 @@ name: nicklasknell.dev - Production
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
