@@ -27,7 +27,12 @@
   }
 }
 
-@page: first {
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+@page:first {
   margin: 0;
 }
 
